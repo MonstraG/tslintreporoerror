@@ -1,0 +1,11 @@
+{
+	"extends": "@org/tsconfig",
+	"compilerOptions": {
+		"plugins": [{ "name": "next" }],
+		"baseUrl": "./",
+		"strictNullChecks": true,
+		"composite": true
+	},
+	"include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.mjs", ".eslintrc.js"],
+	"exclude": ["**/node_modules", "**/.*/", "coverage"]
+}

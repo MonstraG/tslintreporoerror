@@ -1,0 +1,9 @@
+{
+	"extends": "@tsconfig/next",
+	"compilerOptions": {
+		"target": "ESNext",
+		"checkJs": true,
+		"strictFunctionTypes": false,
+		"strictNullChecks": false
+	}
+}

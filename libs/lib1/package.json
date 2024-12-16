@@ -1,0 +1,23 @@
+{
+	"name": "@org/lib1",
+	"version": "1.0.0",
+	"author": "Lifekeys",
+	"license": "UNLICENSED",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint src",
+		"typecheck": "tsc --noemit"
+	},
+	"devDependencies": {
+		"typescript-eslint": "8.18.0",
+		"@org/tsconfig": "workspace:*",
+		"eslint": "9.17.0",
+		"typescript": "5.7.2"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"files": [
+		"src/"
+	]
+}
